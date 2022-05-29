@@ -141,6 +141,33 @@
               />
             </div>
           </div>
+
+          <!-- Portfolio Item 3-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <h5>Tic-Tac-Toe AI Web</h5>
+            <div
+              class="portfolio-item mx-auto"
+              data-bs-toggle="modal"
+              data-bs-target="#portfolioModal3"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/circled-tic.png"
+                alt="..."
+              />
+            </div>
+          </div>
+
+
           <!-- Portfolio Item 2-->
           <div class="col-md-6 col-lg-4 mb-5">
             <h5>Tic-Tac-Toe AI (minimax algorithm)</h5>
@@ -165,30 +192,7 @@
               />
             </div>
           </div>
-          <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <h5>Matcha(upcoming)</h5>
-            <div
-              class="portfolio-item mx-auto"
-              data-bs-toggle="modal"
-              data-bs-target="#portfolioModal3"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/circus.png"
-                alt="..."
-              />
-            </div>
-          </div>
+          
 
 
 
@@ -597,7 +601,7 @@
                   <h2
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   >
-                    Circus Tent
+                    Tic Tac Toe Artificial Inteligence
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -610,20 +614,38 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/circus.png"
+                    src="assets/img/portfolio/tic-tac-JS.png"
                     alt="..."
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
+                    This is a demostration of recursion and the minimax algorithm using plain JS, HTML and CSS.
+                    It analizes every possible move and it makes the best move on each turn.
+                    Tic-tac-toe onlye has ≈ 20,000 board states. So we can loop through each one in each turn and
+                    select the best move
                   </p>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
                     <i class="fas fa-xmark fa-fw"></i>
                     Close Window
+                  </button>
+
+                  <button
+                    class="btn btn-primary"
+                    onclick=" window.open('https://thunderous-kitsune-3cad2f.netlify.app')"
+                    data-bs-dismiss="modal"
+                  >
+                    <i class="fa-solid fa-check"></i>
+                    Launch
+                  </button>
+                  <button
+                    class="btn btn-primary"
+                    onclick=" window.open('https://github.com/CarloMonroy/tic-tac-toe-AI-UI')"
+                    data-bs-dismiss="modal"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                    Github
+                  </button>
+                </div>
                   </button>
                 </div>
               </div>
